@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[17]:
-
-
 import re
 import csv
 from collections import Counter, defaultdict
@@ -82,8 +76,6 @@ save_to_csv(suspicious_activity, ["IP Address", "Failed Login Count"], output_fi
 
 print(f"\nResults saved to {output_file}")
 
-
-# In[ ]:
 
 
 
